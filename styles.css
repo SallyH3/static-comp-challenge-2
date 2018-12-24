@@ -496,6 +496,7 @@ span.fas {
 
 .box p.text {
   align-items: flex-start;
+  color: #717D94;
   display: inline-block;
   font-weight: bold;
   justify-content: flex-start;
@@ -505,6 +506,7 @@ span.fas {
 
 .box p.right {
   align-items: center;
+  color: #717D94;
   display: inline-block;
   font-size: 12px;
   justify-content: center;
@@ -530,6 +532,7 @@ hr {
 }
 
 .description {
+  color: #717D94;
   display: flex;
   flex-direction: row;
   font-size: 12px;
