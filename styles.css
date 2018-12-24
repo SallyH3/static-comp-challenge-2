@@ -346,6 +346,10 @@ input[type="checkbox"]:checked + label:after {
   width: 84%;
 }
 
+.ellipsis {
+  visibility: hidden;
+}
+
 .text-bar-above-graphs a:hover {
   border-bottom: 3px solid #02ACEB;
   color: black;
@@ -709,6 +713,94 @@ hr {
 .circle-graph {
   display: block;
   padding-bottom: 10px;
+  width: 100%;
+}
+
+.social-media-inputs {
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+}
+
+.social-media-buttons {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 702px) {
+.text-bar-above-graphs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.social-media-inputs {
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+}
+
+.link-to-job,
+.use-button-widget,
+.upload-resumes-by-email {
+  display: inline;
+  height: 30px;
+  padding-left: 10px;
+  width: 75%;
+  }
+
+.copy-button {
+  width: 20%;
+}
+
+.social-media-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 147%;
+}
+}
+
+@media screen and (max-width: 590px) {
+
+  /* maybe create another bars icon for
+  job description box and social media areas? */
+
+.text-bar-above-graphs {
+  display: flex;
+  flex-direction: row;
+  width: 160%;
+}
+
+.ellipsis {
+  visibility: visible;
+}
+
+.activity,
+.broadcast,
+.notifications{
+  visibility: hidden;
+}
+
+.box,
+.description {
+  font-size: 10px;
+}
+
+.social-media-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.facebook-button,
+.twitter-button,
+.linkedin-button {
+  align-items: center;
+  border-radius: 3px;
+  border: none;
+  color: #FFF;
+  display: flex;
+  font-size: 10px;
+  height: 40px;
+  margin: 10px;
   width: 100%;
 }
 }
