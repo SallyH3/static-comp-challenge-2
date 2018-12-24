@@ -118,7 +118,7 @@ a {
 }
 
 .admin-container,
-.main-container {
+.main-section-container {
   border-bottom: 2px solid #2C3645;
 }
 
@@ -165,6 +165,12 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.categories-sidebar {
+  color: #97A1AB;
+  margin-top: 20px;
+  padding-left: 15px;
 }
 
 .checkbox-container {
