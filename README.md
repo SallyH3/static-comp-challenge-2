@@ -6,7 +6,7 @@ I was given creative license (copy, images, icons, and color pallette), however 
 **Project spec:
 
 
-![image](https://user-images.githubusercontent.com/40863560/50407538-8e930780-0796-11e9-9805-149de66956b7.png)
+![image](https://user-images.githubusercontent.com/40863560/50407784-58a45200-079b-11e9-8cd0-d260fd7a3221.png)
 
 
 **My version:
