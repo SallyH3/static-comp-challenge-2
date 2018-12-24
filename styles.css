@@ -572,7 +572,8 @@ hr {
 .social-media-buttons {
   display: flex;
   flex-direction: column;
-  margin: 15px 0px 10px 0px;
+  margin: 15px 0px 10px -10px;
+  width: 120%;
 }
 
 .facebook-button,
@@ -619,7 +620,7 @@ hr {
 
 .social-media-inputs {
   margin: 15px 0px 10px 0px;
-  width: 70%;
+  width: 80%;
 }
 
 .social-media-inputs i {
