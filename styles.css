@@ -118,7 +118,7 @@ a {
 }
 
 .admin-container,
-.main-container {
+.main-section-container {
   border-bottom: 2px solid #2C3645;
 }
 
@@ -165,6 +165,12 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.categories-sidebar {
+  color: #97A1AB;
+  margin-top: 20px;
+  padding-left: 15px;
 }
 
 .checkbox-container {
@@ -402,7 +408,7 @@ span.fas {
   font-weight: bold;
   margin: auto;
   padding: 7px 7px;
-  width: 200px;
+  width: 165px;
 }
 
 .square-graph img {
@@ -521,10 +527,9 @@ space between text below */
   color: #FFFFFF;
   display: flex;
   font-size: 12px;
-  height: 20px;
+  height: 25px;
   margin-top: 10px;
-  padding: 5px;
-  width: 50px;
+  width: 55px;
 }
 
 hr {
