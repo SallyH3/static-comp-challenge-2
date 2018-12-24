@@ -200,23 +200,42 @@ input[type="checkbox"] {
 
 input[type="checkbox"] + label:before {
   border: 1px solid #333;
+  border-radius: 2px;
   content: "\00a0";
   display: inline-block;
-  height: 16px;
+  height: 20px;
   margin: 0 .25em 0 0;
-  padding: 0;
+  padding-bottom: 15px;
   vertical-align: top;
   width: 16px;
 }
-input[type="checkbox"]:checked + label:before {
+
+input[class="checkbox1"]:checked + label:before {
+  background: yellow;
+  color: #333;
+  content: "\2713";
+  text-align: center;
+}
+
+input[class="checkbox2"]:checked + label:before {
+  background: #02ACEB;
+  color: #333;
+  content: "\2713";
+  text-align: center;
+}
+
+input[class="checkbox3"]:checked + label:before {
   background: red;
   color: #333;
   content: "\2713";
   text-align: center;
 }
 
-input[type="checkbox"]:checked + label:after {
-  font-weight: bold;
+input[class="checkbox4"]:checked + label:before {
+  background: green;
+  color: #333;
+  content: "\2713";
+  text-align: center;
 }
 
 /* Media queries for sidebar */
