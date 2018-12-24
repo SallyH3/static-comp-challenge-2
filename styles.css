@@ -289,7 +289,6 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .buttons-below-search-bar {
-  align-items: space-between;
   display: flex;
   justify-content: flex-end;
   margin-right: 25px;
@@ -301,25 +300,26 @@ input[type="checkbox"]:checked + label:after {
   border: 1px solid gray;
   color: gray;
   display: flex; 
-  height: 25px;
+  height: 35px;
   justify-content: center;
   margin: 5px;
-  width: 25px;
+  width: 36px;
 }
 
 .open-button {
+  border: 1px solid gray;
   border-radius: 100px;
   color: gray;
   font-weight: bold;
-  height: 25px;
+  height: 35px;
   margin: 5px;
-  width: 75px;
+  width: 90px;
 }
 
 .open-dot-icon {
-  color: green;
+  color: #8CC63E;
   font-size: 10px;
-  /* add padding */
+  margin-right: 5px;
 }
 
 .open-button:hover {
@@ -331,6 +331,7 @@ input[type="checkbox"]:checked + label:after {
   flex-direction: row;
   justify-content: space-between;
   padding: 0px 20px 0px 20px;
+  width: 84%;
 }
 
 .text-bar-above-graphs a:hover {
@@ -342,7 +343,7 @@ input[type="checkbox"]:checked + label:after {
 
 .text-bar-above-graphs a {
   display: flex;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   margin: 5px;
   padding-bottom: 10px; 
