@@ -26,13 +26,25 @@ body {
   width: 100%;
 }
 
-.header1 i {
+.fa-bars,
+.fa-user,
+.fa-bookmark,
+.fa-question-circle {
   color: gray;
   font-size: 30px;
   margin: 10px;
 }
 
-.header1 i:hover {
+.fa-caret-left {
+  color: #02ACEB;
+  font-size: 20px;
+  margin-right: -7px;
+}
+
+.fa-bars:hover,
+.fa-user:hover,
+.fa-bookmark:hover,
+.fa-question-circle:hover {
   background-color: #02ACEB;
   color: #FFFFFF;
   padding: 10px;
@@ -653,23 +665,52 @@ hr {
   height: 30px;
 }
 
-/*.upload-resumes-by-email {
-  border: none;
-  border-radius: 3px;
-  font-size: 10px;
-  height: 30px;
-  padding-left: 10px;
-  width: 200px;
-}
-*/
-
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1200px) {
   .sidebar-container {
     display: none;
   }
+
+  .fa-caret-left {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .graphs {
+  padding-top: 10px;
+  width: 100%;
+}
+
+.graphs-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.totals-button,
+.applicants-button {
+  margin: 10px;
+}
+
+.square-graph {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.square-graph img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.circle-graph {
+  display: block;
+  padding-bottom: 10px;
+  width: 100%;
+}
 }
 
 /* for circle graphs, media query will be
