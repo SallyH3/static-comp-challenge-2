@@ -482,28 +482,25 @@ span.fas {
 .job-grid-box {
   background-color: #FFF;
   display: grid;
-  /*grid-template-rows: 100px;*/
+  font-weight: bold;
   grid-gap: 0px;
   margin: 35px;
-  width: 70%;
+  width: 100%;
 }
 
 .box {
   background-color: #FFF;
   color: black;
   font-size: 12px;
-  padding: 10px;
 }
-
-/* grid: figure out how to get 
-space between text below */
 
 .box p.text {
   align-items: flex-start;
   display: inline-block;
   font-weight: bold;
   justify-content: flex-start;
-  width: 200px;
+  padding-left: 20px;
+  width: 120px;
 }
 
 .box p.right {
@@ -514,12 +511,6 @@ space between text below */
   margin-left: 10px;
 }
 
-.lead {
-  border-radius: 50%;
-  display: inline;
-  height: 50px;
-  width: 50px;
-}
 
 .edit-button {
   background-color: #7C8BA6;
@@ -533,7 +524,17 @@ space between text below */
 }
 
 hr {
+  color: #EEEEEE;
+  border-style: solid;
   width: 95%;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 35px;
 }
 
 .desription-box-text-details {
@@ -542,12 +543,18 @@ hr {
   margin: 10px;
 }
 
-.lead-text {
-  display: inline;
+.lead-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.poehler-text {
+.lead {
+  border-radius: 50%;
   display: inline;
+  height: 50px;
+  width: 50px;
 }
 
 .bottom-right-container {
