@@ -114,7 +114,7 @@ a {
 .s-sidebar__nav {
   background: #243e56;
   color: rgba(255, 255, 255, 0.7);
-  left: -15em;
+  left: 0;
   overflow: hidden;
   position: relative;
   top: 0;
@@ -238,50 +238,6 @@ input[class="checkbox4"]:checked + label:before {
   text-align: center;
 }
 
-/* Media queries for sidebar */
-
-@media (min-width: 42em) {
-   .s-layout__content {
-      margin-left: 4em;
-   }
-   
-   /* Sidebar media */
-   .s-sidebar__trigger {
-      width: 4em;
-   }
-   
-   .s-sidebar__nav {
-      width: 4em;
-      left: 0;
-   }
-   
-   .s-sidebar__nav:hover,
-   .s-sidebar__nav:focus,
-   .s-sidebar__trigger:hover + .s-sidebar__nav,
-   .s-sidebar__trigger:focus + .s-sidebar__nav {
-      width: 15em;
-   }
-}
-
-@media (min-width: 68em) {
-   .s-layout__content {
-      margin-left: 15em;
-   }
-   
-   /* Sidebar media */
-   .s-sidebar__trigger {
-      display: none
-   }
-   
-   .s-sidebar__nav {
-      width: 15em;
-   }
-   
-   .s-sidebar__nav ul {
-      top: 1.3em;
-   }
-}
-
 .header2 {
   color: gray;
   display: flex;
@@ -297,7 +253,6 @@ input[class="checkbox4"]:checked + label:before {
 }
 
 .customer-service-rep-title {
-  /*flex-direction: column;*/
   align-items: flex-start;
   display: flex;
   font-size: 25px;
@@ -366,7 +321,7 @@ input[class="checkbox4"]:checked + label:before {
 }
 
 .ellipsis {
-  visibility: hidden;
+   display:none !important;
 }
 
 .text-bar-above-graphs a:hover {
@@ -489,7 +444,8 @@ span.fas {
 
 .job-table-wrapper {
   background-color: #ECF2F6;
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .job-container {
@@ -656,7 +612,7 @@ hr {
 
 .social-media-inputs {
   margin: 15px 0px 10px 0px;
-  width: 80%;
+  width: 100%;
 }
 
 .social-media-inputs i {
@@ -741,7 +697,7 @@ hr {
 }
 
 .social-media-buttons {
-  width: 100%;
+  width: 140%;
 }
 }
 
@@ -779,9 +735,6 @@ hr {
 
 @media screen and (max-width: 590px) {
 
-  /* maybe create another bars icon for
-  job description box and social media areas? */
-
 .text-bar-above-graphs {
   display: flex;
   flex-direction: row;
@@ -789,7 +742,7 @@ hr {
 }
 
 .ellipsis {
-  visibility: visible;
+  display:block !important;
 }
 
 .activity,
@@ -820,6 +773,40 @@ hr {
   font-size: 10px;
   height: 40px;
   margin: 10px;
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 498px) {
+
+  .bottom-right-main {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .social-media-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 133%;
+}
+
+.facebook-button,
+.twitter-button,
+.linkedin-button {
+  /*align-items: center;*/
+  border-radius: 3px;
+  border: none;
+  color: #FFF;
+  display: flex;
+  font-size: 8px;
+  height: 35px;
+  margin: 10px;
+  width: 75%;
+}
+
+.social-media-inputs {
+  font-size: 8px;
+  margin: 10px 0px 10px 0px;
   width: 100%;
 }
 }
