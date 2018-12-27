@@ -44,7 +44,8 @@ body {
 .fa-bars:hover,
 .fa-user:hover,
 .fa-bookmark:hover,
-.fa-question-circle:hover {
+.fa-question-circle:hover
+.applicants-button:hover {
   background-color: #02ACEB;
   color: #FFFFFF;
   padding: 10px;
@@ -185,14 +186,14 @@ a {
   padding-left: 15px;
 }
 
+/* --- Checkboxes --- */
+
 .checkbox-container {
   display: flex;
   flex-direction: column;
   padding: 20px 20px;
   padding-top: 0px;
 }
-
-/* --- Checkboxes --- */
 
 input[type="checkbox"] {
   visibility: hidden;
@@ -265,7 +266,7 @@ input[class="checkbox4"]:checked + label:before {
 .preview-text {
   display: inline;
   flex-direction: column;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 12px;
   margin: 5px;
 }
@@ -680,6 +681,10 @@ p.right.grid-salary {
 }
 
 @media screen and (max-width: 910px) {
+  .bottom-right-container {
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+  }
   .graphs {
   padding-top: 10px;
   width: 100%;
@@ -721,6 +726,33 @@ p.right.grid-salary {
 
 .social-media-buttons {
   width: 140%;
+}
+}
+
+@media screen and (max-width: 852px) {
+  .bottom-right-container {
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+  }
+
+  .bottom-right-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .link-to-job,
+  .use-button-widget,
+  .upload-resumes-by-email {
+    display: inline;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 75%;
+  }
+
+.copy-button {
+  width: 20%;
 }
 }
 
@@ -998,8 +1030,22 @@ font-size: 12px;
 .upload-resumes-by-email {
   display: inline;
   }
-}
 
-/* for circle graphs, media query will be
-take off flex and display block at
-approx. 750px */
+@media screen and (max-width: 320px) {
+  .text-bar-above-graphs a {
+    display: flex;
+    font-size: 9px;
+  }
+
+  .box p.text {
+    padding-left: 5px;
+  }
+
+  .description {
+    padding-left: 2px;
+  }
+
+  p.right.grid-description {
+    padding-left: 25px;
+  }
+}
