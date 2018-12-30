@@ -16,6 +16,24 @@ I was given creative license (copy, images, icons, and color pallette), however 
 ![sc2-full](https://user-images.githubusercontent.com/40863560/50551416-2d0ee500-0c3d-11e9-827c-a589e8fc48a2.jpg)
 
 
+## Hover states:
+
+
+<img width="1199" alt="screen shot 2018-12-30 at 2 57 16 pm" src="https://user-images.githubusercontent.com/40863560/50551791-1c15a200-0c44-11e9-8d1a-c8cfe137bd44.png">
+
+
+<img width="239" alt="screen shot 2018-12-30 at 2 58 23 pm" src="https://user-images.githubusercontent.com/40863560/50551794-3c456100-0c44-11e9-85d9-93ab5dd35ebc.png">
+
+
+<img width="1015" alt="screen shot 2018-12-30 at 2 59 29 pm" src="https://user-images.githubusercontent.com/40863560/50551796-49625000-0c44-11e9-812c-b41ebb8e1f3d.png">
+
+
+<img width="1018" alt="screen shot 2018-12-30 at 2 59 18 pm" src="https://user-images.githubusercontent.com/40863560/50551797-4e270400-0c44-11e9-8bc2-5b4a1901ae94.png">
+
+
+<img width="748" alt="screen shot 2018-12-30 at 2 58 42 pm" src="https://user-images.githubusercontent.com/40863560/50551798-52532180-0c44-11e9-8d5f-e431422364d2.png">
+
+
 ## Mobile view(320px):
 
 
