@@ -12,3 +12,4 @@ I was given creative license (copy, images, icons, and color pallette), however 
 **My version:
 
 
+![sc2-full](https://user-images.githubusercontent.com/40863560/50551416-2d0ee500-0c3d-11e9-827c-a589e8fc48a2.jpg)
