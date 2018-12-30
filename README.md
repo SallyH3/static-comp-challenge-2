@@ -7,7 +7,7 @@ I was given creative license (copy, images, icons, and color pallette), however 
 ## Project spec:
 
 
-![image](https://user-images.githubusercontent.com/40863560/50407784-58a45200-079b-11e9-8cd0-d260fd7a3221.png)
+![dribble-full-sc2](https://user-images.githubusercontent.com/40863560/50551666-c8a25480-0c41-11e9-9cc9-a91cb54d293e.jpg)
 
 
 ## My version(desktop view):
