@@ -19,4 +19,4 @@ I was given creative license (copy, images, icons, and color pallette), however 
 ## Mobile view(320px):
 
 
-![mobile-sc2](https://user-images.githubusercontent.com/40863560/50551462-de157f80-0c3d-11e9-8ed5-cc9789c11c96.jpg)
+![sc2-mobile](https://user-images.githubusercontent.com/40863560/50551568-c4753780-0c3f-11e9-9302-86afcc23c38a.jpg)
