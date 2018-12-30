@@ -619,9 +619,9 @@ p.right.grid-salary {
   background-color: #037EBB;
 }
 
-.post-to {
+/*.post-to {
   display: none;
-}
+}*/
 
 .link-to-job-text,
 .button-widget-text,
@@ -852,16 +852,6 @@ p.right.grid-salary {
 .bottom-right-container {
   padding: 35px;
   width: 95%;
-  }
-
-.facebook-button,
-.twitter-button,
-.linkedin-button {
-  display: none;
-}
-
-.post-to {
-  display: block;
 }
 
 .social-media-inputs {
@@ -953,17 +943,6 @@ font-size: 12px;
   width: 133%;
 }
 
-.facebook-button,
-.twitter-button,
-.linkedin-button {
-  display: none;
-}
-
-.post-to {
-  display: block;
-  width: 95%;
-}
-
 .outer-line {
   width: 37%;
 }
@@ -1047,5 +1026,9 @@ font-size: 12px;
 
   p.right.grid-description {
     padding-left: 25px;
+  }
+
+  .social-media-buttons {
+    width: 100%;
   }
 }
