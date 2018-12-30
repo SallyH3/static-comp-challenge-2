@@ -378,7 +378,8 @@ span.fas {
 .graphs {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 44px;
+  padding-bottom: 25px;
+  padding-top: 35px;
 }
 
 .graphs-left {
@@ -685,6 +686,7 @@ p.right.grid-salary {
     padding: 10px 10px 0px 10px;
     width: 100%;
   }
+
   .graphs {
   padding-top: 10px;
   width: 100%;
