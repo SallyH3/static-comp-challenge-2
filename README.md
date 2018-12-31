@@ -13,7 +13,7 @@ I was given creative license (copy, images, icons, and color pallette), however 
 ## My version(desktop view):
 
 
-![shot-sc2](https://user-images.githubusercontent.com/40863560/50551851-0f457e00-0c45-11e9-8d8e-c35cba150bf4.jpg)
+![sc2full](https://user-images.githubusercontent.com/40863560/50566028-3312cd80-0cf2-11e9-865e-26b9c116c0b9.jpg)
 
 
 ## Hover states:
