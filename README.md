@@ -25,9 +25,6 @@ I was given creative license (copy, images, icons, and color pallette), however 
 <img width="239" alt="screen shot 2018-12-30 at 2 58 23 pm" src="https://user-images.githubusercontent.com/40863560/50551794-3c456100-0c44-11e9-85d9-93ab5dd35ebc.png">
 
 
-<img width="1015" alt="screen shot 2018-12-30 at 2 59 29 pm" src="https://user-images.githubusercontent.com/40863560/50551796-49625000-0c44-11e9-812c-b41ebb8e1f3d.png">
-
-
 <img width="1018" alt="screen shot 2018-12-30 at 2 59 18 pm" src="https://user-images.githubusercontent.com/40863560/50551797-4e270400-0c44-11e9-8bc2-5b4a1901ae94.png">
 
 
